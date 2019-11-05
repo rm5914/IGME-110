@@ -6,21 +6,30 @@ header{
 
 body {
     background-color: black;
+    color:white;
     }
 
 .image1 {
    height: 300px;
    left: 37%;
    position: absolute;
-   top: 30%;
+   top: 35%;
    width: 300px;
 }
 
 .image2 {
    height: 350px;
-   left: 10%;
+   left: 5%;
    position: absolute;
-   top: 20%;
+   top: 30%;
+   width: 500px;
+}
+
+.image3 {
+   height: 300px;
+   left: 5%;
+   position: absolute;
+   top: 30%;
    width: 350px;
 }
 

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="C" version="6.17.0" title="Shotcut version 19.10.20" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.040">
+    <property name="length">00:00:20.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Renee/source/repos/IGME-110/Video-Exercise/Winter Forest.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2018-02-27T15:34:24</property>
+    <property name="shotcut:hash">ef8fabceb0b9b735528efb547d845ea2</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">Winter Forest.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.760">
+    <property name="length">00:00:29.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Renee/source/repos/IGME-110/Video-Exercise/Deers Running.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2016-11-13T20:04:11</property>
+    <property name="shotcut:hash">ee0de46ec11a15f47f94f7715fba30ab</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Deers Running.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:00:10.600">
+    <property name="length">00:00:10.640</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Renee/source/repos/IGME-110/Video-Exercise/Deer Looking for Food.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-08T07:49:36</property>
+    <property name="shotcut:hash">52ab3f63a3e0cfbdf308964d6274f75b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Deer Looking for Food.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="main_bin" title="Shotcut version 19.10.20">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:20.040"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:29.760"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:10.600"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:36.560">
+    <property name="length">00:00:36.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:36.560"/>
+  </playlist>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:00:10.600">
+    <property name="length">00:00:10.640</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Renee/source/repos/IGME-110/Video-Exercise/Deer Looking for Food.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2019-11-08T07:49:36</property>
+    <property name="shotcut:hash">52ab3f63a3e0cfbdf308964d6274f75b</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Deer Looking for Food.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <blank length="00:00:20.560"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:08.720"/>
+  </playlist>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:00:29.760">
+    <property name="length">00:00:29.800</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Renee/source/repos/IGME-110/Video-Exercise/Deers Running.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2016-11-13T20:04:11</property>
+    <property name="shotcut:hash">ee0de46ec11a15f47f94f7715fba30ab</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Deers Running.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <blank length="00:00:06.520"/>
+    <entry producer="producer4" in="00:00:21.640" out="00:00:29.360"/>
+  </playlist>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.040">
+    <property name="length">00:00:20.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Renee/source/repos/IGME-110/Video-Exercise/Winter Forest.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2018-02-27T15:34:24</property>
+    <property name="shotcut:hash">ef8fabceb0b9b735528efb547d845ea2</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Winter Forest.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.040">
+    <property name="length">00:00:20.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Renee/source/repos/IGME-110/Video-Exercise/Winter Forest.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2018-02-27T15:34:24</property>
+    <property name="shotcut:hash">ef8fabceb0b9b735528efb547d845ea2</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Winter Forest.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:00:20.040">
+    <property name="length">00:00:20.080</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Renee/source/repos/IGME-110/Video-Exercise/Winter Forest.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2018-02-27T15:34:24</property>
+    <property name="shotcut:hash">ef8fabceb0b9b735528efb547d845ea2</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Winter Forest.mp4</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <blank length="00:00:00.280"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:06.400"/>
+    <blank length="00:00:07.640"/>
+    <entry producer="producer6" in="00:00:01.600" out="00:00:08.120"/>
+    <blank length="00:00:08.440"/>
+    <entry producer="producer7" in="00:00:04.680" out="00:00:11.880"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 19.10.20" global_feed="1" in="00:00:00.000" out="00:00:36.560">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.298827</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">0</property>
+    </transition>
+  </tractor>
+</mlt>
